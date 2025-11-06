@@ -67,14 +67,16 @@ const Categories = () => {
               <div className="lg:grid grid-cols-2 gap-6 mt-8 hidden">
                 {/* Малая карточка — Проектирование */}
                 <div className="col-span-1">
-                  <div className="relative rounded-2xl overflow-hidden group">
-                    <div>
+                  <div className="relative rounded-2xl overflow-hidden group h-[280px]">
+                    {" "}
+                    {/* Увеличена высота */}
+                    <div className="h-full">
                       <Image
-                        src="/images/categories/appartment.jpg"
+                        src="/images/categories/Regtime132_1.webp"
                         alt="Проектирование домов"
-                        width={320}
-                        height={386}
-                        className="w-full"
+                        width={680}
+                        height={280}
+                        className="w-full h-full object-cover" /* Добавлено object-cover */
                         unoptimized={true}
                       />
                     </div>
@@ -99,14 +101,16 @@ const Categories = () => {
 
                 {/* Малая карточка — Строительство под ключ */}
                 <div className="col-span-1">
-                  <div className="relative rounded-2xl overflow-hidden group">
-                    <div>
+                  <div className="relative rounded-2xl overflow-hidden group h-[280px]">
+                    {" "}
+                    {/* Увеличена высота */}
+                    <div className="h-full">
                       <Image
-                        src="/images/categories/office.jpg"
+                        src="/images/categories/RockNRoll284_4.webp"
                         alt="Строительство под ключ"
-                        width={320}
-                        height={386}
-                        className="w-full"
+                        width={680}
+                        height={280}
+                        className="w-full h-full object-cover" /* Добавлено object-cover */
                         unoptimized={true}
                       />
                     </div>
@@ -132,16 +136,18 @@ const Categories = () => {
             </div>
 
             {/* Правая колонка - только большие карточки на десктопе */}
-            <div className="lg:col-span-6 col-span-12 space-y-4 sm:space-y-6">
+            <div className="lg:col-span-6 col-span-12 space-y-4 mt-10 sm:space-y-6">
               {/* Большая карточка — Сельская ипотека 3% */}
-              <div className="relative rounded-xl lg:rounded-2xl overflow-hidden group">
+              <div className="relative rounded-xl lg:rounded-2xl overflow-hidden group h-[280px] lg:h-[320px]">
+                {" "}
+                {/* Увеличена высота на десктопе */}
                 <Link href="https://arhitek42.ru/selskaya-ipoteka">
                   <Image
-                    src="/images/categories/villas.jpg"
+                    src="/images/categories/ValsBoston137_1.webp"
                     alt="Сельская ипотека 3%"
                     width={680}
-                    height={386}
-                    className="w-full"
+                    height={320}
+                    className="w-full h-full object-cover" /* Добавлено object-cover */
                     unoptimized={true}
                   />
                 </Link>
@@ -172,14 +178,16 @@ const Categories = () => {
               </div>
 
               {/* Большая карточка — Рассрочка 0% */}
-              <div className="relative rounded-xl lg:rounded-2xl overflow-hidden group">
-                <div>
+              <div className="relative rounded-xl lg:rounded-2xl overflow-hidden group h-[280px] lg:h-[320px]">
+                {" "}
+                {/* Увеличена высота на десктопе */}
+                <div className="h-full">
                   <Image
-                    src="/images/categories/luxury-villa.jpg"
+                    src="/images/categories/Regtime132_1.webp"
                     alt="Рассрочка 0% без банка"
                     width={680}
-                    height={386}
-                    className="w-full"
+                    height={320}
+                    className="w-full h-full object-cover" /* Добавлено object-cover */
                     unoptimized={true}
                   />
                 </div>
@@ -210,14 +218,16 @@ const Categories = () => {
               <div className="lg:hidden grid grid-cols-2 gap-4 sm:gap-6">
                 {/* Малая карточка — Проектирование */}
                 <div className="col-span-1">
-                  <div className="relative rounded-xl overflow-hidden group">
-                    <div>
+                  <div className="relative rounded-xl overflow-hidden group h-[200px]">
+                    {" "}
+                    {/* Высота для мобильных */}
+                    <div className="h-full">
                       <Image
-                        src="/images/categories/appartment.jpg"
+                        src="/images/categories/Rondo205_1.webp"
                         alt="Проектирование домов"
                         width={320}
-                        height={386}
-                        className="w-full"
+                        height={200}
+                        className="w-full h-full object-cover"
                         unoptimized={true}
                       />
                     </div>
@@ -242,14 +252,16 @@ const Categories = () => {
 
                 {/* Малая карточка — Строительство под ключ */}
                 <div className="col-span-1">
-                  <div className="relative rounded-xl overflow-hidden group">
-                    <div>
+                  <div className="relative rounded-xl overflow-hidden group h-[200px]">
+                    {" "}
+                    {/* Высота для мобильных */}
+                    <div className="h-full">
                       <Image
-                        src="/images/categories/office.jpg"
+                        src="/images/categories/ValsBoston137_1.webp"
                         alt="Строительство под ключ"
                         width={320}
-                        height={386}
-                        className="w-full"
+                        height={200}
+                        className="w-full h-full object-cover"
                         unoptimized={true}
                       />
                     </div>
